@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2A9AF16B-0B8A-4964-8335-DC570A0B0DDF}</ProjectGuid>
+    <ProjectGuid>{F13E0BA3-EF2E-4A7B-B1F0-AF31F5AC2455}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>WORK5_LAB.My.MyApplication</StartupObject>
-    <RootNamespace>WORK5_LAB</RootNamespace>
-    <AssemblyName>WORK5-LAB</AssemblyName>
+    <StartupObject>WORK9.My.MyApplication</StartupObject>
+    <RootNamespace>WORK9</RootNamespace>
+    <AssemblyName>WORK9</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
@@ -22,7 +22,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>WORK5-LAB.xml</DocumentationFile>
+    <DocumentationFile>WORK9.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -32,7 +32,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>WORK5-LAB.xml</DocumentationFile>
+    <DocumentationFile>WORK9.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -98,6 +98,19 @@
     <Compile Include="Form4.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Form5.Designer.vb">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.vb">
+      <DependentUpon>Form6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -127,6 +140,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form4.resx">
       <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
