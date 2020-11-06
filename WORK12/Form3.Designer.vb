@@ -22,39 +22,39 @@ Partial Class Form3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.btnOK = New System.Windows.Forms.Button()
+        Me.lst2 = New System.Windows.Forms.ListBox()
         Me.lst1 = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
-        'btnOK
+        'lst2
         '
-        Me.btnOK.Location = New System.Drawing.Point(179, 12)
-        Me.btnOK.Name = "btnOK"
-        Me.btnOK.Size = New System.Drawing.Size(75, 23)
-        Me.btnOK.TabIndex = 6
-        Me.btnOK.Text = "แสดงผล"
-        Me.btnOK.UseVisualStyleBackColor = True
+        Me.lst2.FormattingEnabled = True
+        Me.lst2.Location = New System.Drawing.Point(274, 12)
+        Me.lst2.Name = "lst2"
+        Me.lst2.Size = New System.Drawing.Size(242, 316)
+        Me.lst2.TabIndex = 8
         '
         'lst1
         '
         Me.lst1.FormattingEnabled = True
-        Me.lst1.Location = New System.Drawing.Point(12, 41)
+        Me.lst1.Location = New System.Drawing.Point(12, 12)
         Me.lst1.Name = "lst1"
         Me.lst1.Size = New System.Drawing.Size(242, 316)
-        Me.lst1.TabIndex = 4
+        Me.lst1.TabIndex = 7
         '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(265, 450)
-        Me.Controls.Add(Me.btnOK)
+        Me.ClientSize = New System.Drawing.Size(527, 336)
+        Me.Controls.Add(Me.lst2)
         Me.Controls.Add(Me.lst1)
         Me.Name = "Form3"
         Me.Text = "Form3"
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents btnOK As Button
+
+    Friend WithEvents lst2 As ListBox
     Friend WithEvents lst1 As ListBox
 End Class
